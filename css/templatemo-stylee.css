@@ -1,0 +1,43 @@
+
+/* start service */
+#servicee
+  {
+    min-height: 300px;
+    padding: 80px 0 60px 0;
+  }
+#servicee h3
+  {
+    color: #333;
+    font-weight: bold;
+    letter-spacing: 1px !important;
+    padding-bottom: 30px;
+  }
+#servicee .media
+  {
+    padding: 40px 0 10px 0;
+  }
+#servicee .media .fa
+  {
+    background: #0c4cac;
+    border-radius: 50%;
+    color: #FFFFFF;
+    font-size: 24px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    margin: 0 10px 0 0;
+    padding-right: 0;
+  }
+#servicee .media .media-heading
+  {
+    color: #0c4cac;
+    font-weight: bold;
+    padding: 0 0 10px 0;
+    margin: 0 0 10px 0;
+  }
+#servicee
+  {
+    font-weight: 400;
+  }
+/* end service */
