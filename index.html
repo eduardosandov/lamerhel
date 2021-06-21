@@ -28,6 +28,22 @@
      <link rel="stylesheet" href="assets/css/animated.css">
      <link rel="stylesheet" href="assets/css/owl.css">
 </head>
+<script type="text/javascript">
+     (function () {
+       var options = {
+         facebook: "", // Facebook page ID
+         whatsapp: "+52 5531542145", // WhatsApp number
+         call_to_action: "", // Call to action
+         button_color: "#33cc33", // Color of button
+         position: "left", // Position may be 'right' or 'left'
+         order: "facebook,whatsapp", // Order of buttons
+       };
+       var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
+       var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+       s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+       var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+     })();
+   </script>
 <body id="top" data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
 
      <!-- PRE LOADER -->
@@ -353,7 +369,22 @@
                </div>
           </div>
      </section>
-
+     <section id="call-to-action">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-12">
+                      <div class="block">
+                          <h2>
+                              CONTACTANOS
+                          </h2>
+                          <p>
+                      <i class="fab fa-whatsapp fa-lg"></i><a href="https://api.whatsapp.com/send?phone=525531542145&text=COTIZA LABORATORIO LAMERHEL" target="_blank"> <!--5531542145--></a>
+                          </p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
      <!-- MAKE AN APPOINTMENT -->
      <section id="appointment" data-stellar-background-ratio="3">
           <div class="container">
