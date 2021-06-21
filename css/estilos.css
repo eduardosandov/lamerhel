@@ -6,6 +6,14 @@
     background-position: center;
     background-attachment: fixed;
 }
+
+.section10{
+    background: url(../images/slider2.jpg);
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
 .section2{
     background: url(../img/2.jpg);
     overflow: hidden;
