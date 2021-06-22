@@ -67,7 +67,9 @@ http://www.tooplate.com/view/2098-health
     line-height: 24px;
   }
 
-
+  .conwhatsapp {
+    color: #f7f7f7;
+  }
   /*---------------------------------------
      GENERAL               
   -----------------------------------------*/
@@ -107,10 +109,10 @@ http://www.tooplate.com/view/2098-health
   }
 
   .section-btn {
-    background: #a5c422;
+    background: #13b32e;
     border: 0;
     border-radius: 3px;
-    color: #ffffff;
+    color: #5dfc7f;
     font-size: inherit;
     font-weight: 500;
     padding: 14px 20px;
