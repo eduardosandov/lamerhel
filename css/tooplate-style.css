@@ -38,9 +38,10 @@ http://www.tooplate.com/view/2098-health
   }
 
   h2 {
+    text-align: center;
     color: #272727;
-    font-size: 3em;
-    padding-bottom: 10px;
+    font-size: 3em;    
+
   }
 
   h3 {
