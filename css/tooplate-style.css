@@ -7,6 +7,7 @@ http://www.tooplate.com/view/2098-health
 */
 
 :root {
+  --button: bold 14px/22px var(--fontBase);
   --gradient: radial-gradient(41.48% 11.48% at 2.38% 8.52%, #4e5be9 0%, rgba(12, 109, 219, 0) 100%), linear-gradient(135deg, #16e5ec 0%, #4545cc 100%);
   --azul: #00a4e1;
   --fondo: #c7e0e7;
@@ -419,7 +420,7 @@ http://www.tooplate.com/view/2098-health
 
   .slider .owl-dots {
       position: absolute;
-      top: 260px;
+      top: 330px;
       width: 100%;
       justify-content: center;
   }
@@ -457,7 +458,7 @@ http://www.tooplate.com/view/2098-health
     background-repeat: no-repeat;
     background-attachment: local;
     background-size: cover;
-    height: 350px;
+    height:400px;
   }
 
   .slider .item-first {
@@ -480,8 +481,8 @@ http://www.tooplate.com/view/2098-health
   #about {
     background: url('../images/about-bg.jpg') no-repeat top center;
     background-size: cover;
-    padding-top: 150px;
-    padding-bottom: 150px;
+    padding-top: 100px;
+    padding-bottom: 100px;
   }
 
   .profile img,
@@ -506,6 +507,26 @@ http://www.tooplate.com/view/2098-health
   }
 
 
+.button-welcome {
+  border-radius: 4px;
+  background-color: var(--azul);
+  font: var(--button);
+  color: white;
+  padding-inline-start: 20px;
+  padding-inline-end: 20px;
+  padding-block-start: 10px;
+  padding-block-end: 10px;
+  border-radius: none;
+  text-decoration: none;
+  text-align: center;
+  
+}
+
+.button.is-secondary {
+  background: unset;
+  color: purple;
+  border: 2px solid purple;
+}
 
   /*---------------------------------------
       TEAM MEMBERS              
