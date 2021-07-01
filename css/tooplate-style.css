@@ -603,7 +603,9 @@ http://www.tooplate.com/view/2098-health
   padding-bottom: 50px;
 }
 
-
+.row .about-info-desc {
+  background-color: #c7e0e7;
+}
   /*---------------------------------------
      SERVICE              
   -----------------------------------------*/
