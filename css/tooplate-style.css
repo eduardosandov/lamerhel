@@ -6,10 +6,16 @@ http://www.tooplate.com/view/2098-health
 
 */
 
+:root {
+  --gradient: radial-gradient(41.48% 11.48% at 2.38% 8.52%, #4e5be9 0%, rgba(12, 109, 219, 0) 100%), linear-gradient(135deg, #16e5ec 0%, #4545cc 100%);
+  --azul: #00a4e1;
+  --fondo: #c7e0e7;
+  --gris: #ced5ce;
+}
   @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600');
 
   body {
-    background: #ffffff;
+    background-color: var(--fondo);
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
   }
@@ -37,8 +43,7 @@ http://www.tooplate.com/view/2098-health
     font-size: 5em;
   }
 
-  h2 {
-    text-align: center;
+  h2 {    
     color: #272727;
     font-size: 3em;    
 
@@ -414,7 +419,7 @@ http://www.tooplate.com/view/2098-health
 
   .slider .owl-dots {
       position: absolute;
-      top: 575px;
+      top: 260px;
       width: 100%;
       justify-content: center;
   }
@@ -452,7 +457,7 @@ http://www.tooplate.com/view/2098-health
     background-repeat: no-repeat;
     background-attachment: local;
     background-size: cover;
-    height: 650px;
+    height: 350px;
   }
 
   .slider .item-first {
@@ -567,6 +572,15 @@ http://www.tooplate.com/view/2098-health
     top: -22em;
   }
 
+#team {
+  background-color: white;
+}
+
+#team .row .titulo h2 {
+  text-align: center;
+  color: rgb(9, 1, 87);
+  padding-bottom: 50px;
+}
 
 
   /*---------------------------------------
