@@ -1,28 +1,11 @@
-/* 
 
-TemplateMo 562 Space Dynamic
+:root {
+  --gradient: radial-gradient(41.48% 11.48% at 2.38% 8.52%, #4e5be9 0%, rgba(12, 109, 219, 0) 100%), linear-gradient(135deg, #16e5ec 0%, #4545cc 100%);
+  --azul: #00a4e1;
+  --fondo: #c7e0e7;
+  --gris: #ced5ce;
+}
 
-https://templatemo.com/tm-562-space-dynamic
-
-*/
-
-/* ---------------------------------------------
-Table of contents
-------------------------------------------------
-01. font & reset css
-02. reset
-03. global styles
-04. header
-05. banner
-06. features
-07. testimonials
-08. contact
-09. footer
-10. preloader
-11. search
-12. portfolio
-
---------------------------------------------- */
 /* 
 ---------------------------------------------
 font & reset css
@@ -140,11 +123,6 @@ img {
 global styles
 --------------------------------------------- 
 */
-html,
-body {
-  background: #fff;
-  font-family: 'Poppins', sans-serif;
-}
 
 ::selection {
   background: #03a4ed;
