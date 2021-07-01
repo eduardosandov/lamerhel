@@ -1,10 +1,11 @@
-@charset "UTF-8";
-/*!
-Animate.css - http://daneden.me/animate
-Licensed under the MIT license - http://opensource.org/licenses/MIT
+:root {
+  --gradient: radial-gradient(41.48% 11.48% at 2.38% 8.52%, #4e5be9 0%, rgba(12, 109, 219, 0) 100%), linear-gradient(135deg, #16e5ec 0%, #4545cc 100%);
+  --azul: #00a4e1;
+  --fondo: #c7e0e7;
+  --gris: #ced5ce;
+}
 
-Copyright (c) 2014 Daniel Eden
-*/
+@charset "UTF-8";
 
 .animated {
   -webkit-animation-duration: 1s;
@@ -1292,7 +1293,8 @@ Copyright (c) 2014 Daniel Eden
 
 .fadeInUp {
   -webkit-animation-name: fadeInUp;
-          animation-name: fadeInUp;
+          animation-name: fadeInUp;          
+          padding-bottom: 15px;          
 }
 
 @-webkit-keyframes fadeInUpBig {
