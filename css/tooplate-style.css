@@ -928,7 +928,7 @@ http://www.tooplate.com/view/2098-health
   }
 
   .angle-up-btn a {
-    background: #ffffff;
+    background: #3ff839;
     border: 1px solid #f2f2f2;
     border-radius: 3px;
     font-size: 20px;
@@ -943,8 +943,8 @@ http://www.tooplate.com/view/2098-health
   }
 
   .angle-up-btn a:hover {
-    background: #4267b2;
-    color: #ffffff;
+    background: #ffffff;
+    color: #1857e0;
     transform: translateY(-5px);
   }
 
