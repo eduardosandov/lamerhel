@@ -1,4 +1,12 @@
 
+:root {
+  --button: bold 14px/22px var(--fontBase);
+  --gradient: radial-gradient(41.48% 11.48% at 2.38% 8.52%, #4e5be9 0%, rgba(12, 109, 219, 0) 100%), linear-gradient(135deg, #16e5ec 0%, #4545cc 100%);
+  --azul: #00a4e1;
+  --fondo: #c7e0e7;
+  --gris: #ced5ce;
+}
+
 .section1{
     background: url(../images/fondo2.jpg);
     overflow: hidden;
@@ -115,7 +123,7 @@ section .contenedor{
     
 #hero {
     width: 100%;
-    height: 100vh;
+    height: 70vh;
     position: relative;
     background: url("../img/hero-bg.jpg") top center;
     background-size: cover;
@@ -141,7 +149,7 @@ section .contenedor{
     font-size: 56px;
     font-weight: 700;
     line-height: 72px;
-    color: #124265;
+    color: #000000;
     font-family: "Poppins", sans-serif;
   }
   
@@ -191,7 +199,7 @@ section .contenedor{
   }
   
   #hero .icon-box .title a {
-    color: #124265;
+    color: #000000;
     transition: 0.3s;
   }
   
@@ -208,7 +216,7 @@ section .contenedor{
     transition: all 0.3s ease-in-out;
     font-size: 36px;
     line-height: 1;
-    color: #2487ce;
+    color: var(--azul);
   }
   
   #hero .icon-box:hover {
@@ -216,7 +224,7 @@ section .contenedor{
   }
   
   #hero .icon-box:hover .title a {
-    color: #2487ce;
+    color: var(--azul);
   }
   
   @media (min-width: 1024px) {
