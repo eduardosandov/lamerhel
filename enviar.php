@@ -1,22 +1,21 @@
 <?php  
 
-// Llamando a los campos
-$nombre = $_POST['name'];
-$correo = $_POST['email'];
-$telefono = $_POST['phone'];
-$mensaje = $_POST['menssage'];
+if (isset($_POST['enviar'])) {
+    if (!empty($_POST['name']) && !empty($_POST['asunto']) && !empty($_POST['msg']) && !empty($_POST['email'])) {
+        $name = $_POST['name'];
+        $asunto = $_POST['asunto'];
+        $msg = $_POST['msg'];
+        $name = $_POST['name'];
+        $email = $_POST['email'];
+        $header = "From: sistemas@labatc.com" . "\r\n";
+        $header = "Reply-To: sistemas@labatc.com" . "\r\n";
+        $header = mail($email,$asunto,$msg,$header);
+        if ($mail) {
+            echo "<h4> Mail enviado con exito </h4>"
+        }
 
-// Datos para el correo
-$destinatario = "sistemas@labatc.com";
-$asunto = "Contacto desde nuestra web";
 
-$carta = "De: $nombre \n";
-$carta .= "Correo: $correo \n";
-$carta .= "Telefono: $telefono \n";
-$carta .= "Mensaje: $mensaje";
-
-// Enviando Mensaje
-mail($destinatario, $asunto, $carta);
-header('Location:mensaje-de-envio.html');
+    }
+}
 
 ?>
