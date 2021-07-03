@@ -11,7 +11,12 @@ if (isset($_POST['enviar'])) {
         $header.= "X-Mailer: PHP/".phpversion();
         $mail = mail($email,$asunto,$msg,$header);
         if ($mail) {
-            echo "<h4> Mail enviado con exito </h4>";
+            echo "<script>alert('Mail enviado con exito')</script>";
+            echo "<script>setTimeout(\"location.href='index.html'\",1000)</script>";
+        }
+        else {
+            echo "<script>alert('algo salio mal')</script>";
+            echo "<script>setTimeout(\"location.href='index.html'\",1000)</script>";
         }
     }
 }
