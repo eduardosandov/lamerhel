@@ -8,14 +8,12 @@ if (isset($_POST['enviar'])) {
         $name = $_POST['name'];
         $email = $_POST['email'];
         $header = "From: sistemas@labatc.com" . "\r\n";
-        $header = "Reply-To: sistemas@labatc.com" . "\r\n";
-        $header = mail($email,$asunto,$msg,$header);
+        $header.= "Reply-To: sistemas@labatc.com" . "\r\n";
+        $header.= "X-Mailer: PHP/".phpversion();
+        $mail = mail($email,$asunto,$msg,$header);
         if ($mail) {
-            echo "<h4> Mail enviado con exito </h4>"
+            echo "<h4> Mail enviado con exito </h4>";
         }
-
-
     }
 }
 
-?>
