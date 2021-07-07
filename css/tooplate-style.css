@@ -200,7 +200,7 @@ http://www.tooplate.com/view/2098-health
   #about, #team, #news,
   #news-detail {
     position: relative;
-    padding-top: 100px;
+    padding-top: 10px;
     padding-bottom: 100px;
   }
 
@@ -794,7 +794,8 @@ http://www.tooplate.com/view/2098-health
   -----------------------------------------*/
 
   #appointment {
-    padding-top: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 
   #appointment label {
@@ -802,8 +803,9 @@ http://www.tooplate.com/view/2098-health
     font-weight: 500;
   }
 
+
   #appointment .form-control {
-    background: #f9f9f9;
+    background: white;
     border: none;
     border-radius: 3px;
     box-shadow: none;
@@ -830,6 +832,10 @@ http://www.tooplate.com/view/2098-health
     color: #ffffff;
   }
 
+  #contacto {
+    background: #ececec;
+    padding: 20px;
+  }
 
   /*---------------------------------------
      FOOTER              
