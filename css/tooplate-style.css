@@ -115,6 +115,7 @@ http://www.tooplate.com/view/2098-health
 
   .section-title h2 {
     margin-top: 0;
+    text-align: center;
   }
 
   .section-btn {
@@ -794,8 +795,8 @@ http://www.tooplate.com/view/2098-health
   -----------------------------------------*/
 
   #appointment {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 
   #appointment label {
