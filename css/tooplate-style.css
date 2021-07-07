@@ -460,7 +460,7 @@ http://www.tooplate.com/view/2098-health
     background-repeat: no-repeat;
     background-attachment: local;
     background-size: cover;
-    height:400px;
+    height:800px;
   }
 
   .slider .item-first {
@@ -804,6 +804,10 @@ http://www.tooplate.com/view/2098-health
     font-weight: 500;
   }
 
+  #appointment p {
+    padding-top: 20px;
+    color: grey;
+  }
 
   #appointment .form-control {
     background: white;
@@ -837,6 +841,16 @@ http://www.tooplate.com/view/2098-health
     background: #ececec;
     padding: 20px;
   }
+
+  #appointment #enviar {
+    background: rgb(5, 137, 189);
+    color: white;
+  }
+  #appointment #enviar:hover {
+    background: rgb(29, 181, 241);
+    
+  }
+  
 
   /*---------------------------------------
      FOOTER              
