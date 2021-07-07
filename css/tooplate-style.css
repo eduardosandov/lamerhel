@@ -16,7 +16,7 @@ http://www.tooplate.com/view/2098-health
   @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600');
 
   body {
-    background-color: var(--fondo);
+    /* background-color: var(--fondo); */
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
   }
@@ -604,9 +604,9 @@ http://www.tooplate.com/view/2098-health
   padding-bottom: 50px;
 }
 
-.row .about-info-desc {
+/* .row .about-info-desc {
   background-color: #c7e0e7;
-}
+} */
   /*---------------------------------------
      SERVICE              
   -----------------------------------------*/
@@ -930,7 +930,7 @@ http://www.tooplate.com/view/2098-health
   }
 
   .angle-up-btn a {
-    background: #3ff839;
+    background: var(--fondo);
     border: 1px solid #f2f2f2;
     border-radius: 3px;
     font-size: 20px;
