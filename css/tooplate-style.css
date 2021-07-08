@@ -507,6 +507,9 @@ http://www.tooplate.com/view/2098-health
     color: #858585;
     margin: 0;
   }
+  #about p {
+    font-size: 16px;;
+  }
 
 
 .button-welcome {
