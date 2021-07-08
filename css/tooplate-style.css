@@ -363,31 +363,32 @@ http://www.tooplate.com/view/2098-health
   }
 
   .navbar-default .navbar-nav > li a:hover {
-    color: #393939 !important;
+    background: #39afdd;
+    color: white;
   }
 
-  .navbar-default .navbar-nav > li > a:hover,
+  /* .navbar-default .navbar-nav > li > a:hover,
   .navbar-default .navbar-nav > li > a:focus {
     color: #555555;
     background-color: transparent;
-  }
+  } */
 
-  .navbar-default .navbar-nav > .active > a,
+  /* .navbar-default .navbar-nav > .active > a,
   .navbar-default .navbar-nav > .active > a:hover,
   .navbar-default .navbar-nav > .active > a:focus {
     color: #393939;
     background-color: transparent;
-  }
+  } */
 
   .navbar-default .navbar-toggle {
     border: none;
     padding-top: 10px;
   }
 
-  .navbar-default .navbar-toggle .icon-bar {
+  /* .navbar-default .navbar-toggle .icon-bar {
     background: #393939;
     border-color: transparent;
-  }
+  } */
 
   .navbar-default .navbar-toggle:hover,
   .navbar-default .navbar-toggle:focus { 
