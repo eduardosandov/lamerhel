@@ -8,7 +8,8 @@
 }
 
 .section1{
-    background: url(../images/fondo2.jpg);
+    /* background: url(../images/fondo2.jpg); */
+    background: #01949a;
     overflow: hidden;
     background-size: cover;
     background-position: center;
@@ -124,11 +125,12 @@ section .contenedor{
     
 #hero {
     width: 100%;
-    height: 70vh;
-    position: relative;
-    background: url("../img/hero-bg.jpg") top center;
-    background-size: cover;
-    position: relative;
+    background: rgb(245, 245, 245);
+    /* height: 70vh;
+    position: relative; */
+    /* background: url("../img/hero-bg.jpg") top center; */
+    /* background-size: cover; */
+    /* position: relative; */
   }
   
   #hero:before {
@@ -142,7 +144,8 @@ section .contenedor{
   }
   
   #hero .container {
-    padding-top: 80px;
+    padding-top: 50px;
+    padding-bottom: 30px;
   }
   
   #hero h1 {
@@ -179,11 +182,13 @@ section .contenedor{
   }
   
   #hero .icon-boxes {
-    margin-top: 100px;
+    margin-top: 50px;
+    /* background: #01949a; */
+    /* padding: 100px; */
   }
   
   #hero .icon-box {
-    padding: 50px 30px;
+    padding: 20px 20px;
     position: relative;
     overflow: hidden;
     background: #fff;
@@ -197,6 +202,7 @@ section .contenedor{
     font-weight: 700;
     margin-bottom: 15px;
     font-size: 18px;
+    text-align: center;
   }
   
   #hero .icon-box .title a {
@@ -204,13 +210,28 @@ section .contenedor{
     transition: 0.3s;
   }
   
-  #hero .icon-box .description {
+  /* #hero .icon-box .description {
     font-size: 15px;
     line-height: 28px;
     margin-bottom: 0;
   }
-  
-  #hero .icon-box .icon {
+   */
+   #hero .container .showed-content{
+
+     /* width: 50%; */
+     /* background: yellow;
+     border-radius: 50%; */
+     text-align: center;
+    }
+  #hero .container .showed-content img {
+    border: #01949a solid 5px;
+    width: 100%;
+    background: yellow;
+    border-radius: 50%;
+
+  }
+
+  /* #hero .icon-box .icon {
     margin-bottom: 20px;
     padding-top: 10px;
     display: inline-block;
@@ -219,7 +240,7 @@ section .contenedor{
     line-height: 1;
     color: var(--azul);
   }
-  
+   */
   #hero .icon-box:hover {
     transform: scale(1.08);
   }
