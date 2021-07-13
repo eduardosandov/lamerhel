@@ -252,14 +252,24 @@ section .contenedor{
   @media (min-width: 1024px) {
     #hero {
       background-attachment: fixed;
+
     }
   }
   
   @media (max-height: 800px) {
     #hero {
-      height: auto;
+      height: auto;      }
+      #hero .icon-box {
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
   }
+
+  @media (max-width: 600px) {
+
+
+  }
+
   
   @media (max-width: 992px) {
     #hero {
