@@ -12,8 +12,9 @@
     /* letter-spacing: 1px !important; */
     padding-bottom: 50px;
   }
-#servicee .media
+#servicee .media img
   {
+    width: 25%;
     /* padding: 40px 0 10px 0; */
   }
 #servicee .media .fa
