@@ -284,8 +284,10 @@ section .contenedor{
   color: #f7f7f7;
 }
     
-    
-    
+.blocks-button {
+  margin-top: 70px;
+
+}
 
 
 
