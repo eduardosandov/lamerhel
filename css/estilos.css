@@ -46,12 +46,12 @@
     background-position: center;
     background-attachment: fixed;
 }
-.section1 h1{
-
+.section1 h2{
+  color: white;
     font-size: 2.5em;
-    opacity: 0.76;
+    /* opacity: 0.76; */
     text-align: center;
-    margin-top: 250px;
+    /* margin-top: 250px; */
     padding: 10px;
 }
 .texto__columna{
