@@ -220,6 +220,7 @@ section .contenedor{
      /* width: 50%; */
      /* background: yellow;
      border-radius: 50%; */
+     padding: 15px;
      text-align: center;
     }
   #hero .container .showed-content img {
